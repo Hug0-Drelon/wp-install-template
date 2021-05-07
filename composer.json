@@ -1,0 +1,26 @@
+{
+    "name": "hugodrelon/wordpress-install-template",
+    "description": "Installation template for Wordpress project",
+    "authors": [
+        {
+            "name": "Hug0-Drelon",
+            "email": "hugo.drelon@gmail.com"
+        }
+    ],
+    "repositories":[
+        {
+            "type":"composer",
+            "url":"https://wpackagist.org",
+            "only": [
+                "wpackagist-plugin/*",
+                "wpackagist-theme/*"
+            ]
+        }
+    ],
+    "extra": {
+        "wordpress-install-dir": "wp"
+    },
+    "require": {
+        "johnpbloch/wordpress": "^5.7"
+    }
+}
