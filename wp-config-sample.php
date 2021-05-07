@@ -79,7 +79,7 @@ $table_prefix = 'wp_';
  */
 define( 'WP_DEBUG', false );
 
-/* Declare constants to configure woprdress install */
+/* Declare constants to configure wordpress install */
 
 /* Define URL to homepage */
 define(
